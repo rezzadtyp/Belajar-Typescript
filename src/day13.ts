@@ -41,4 +41,3 @@ export class Queue {
     this.showOrder();
   }
 }
-
