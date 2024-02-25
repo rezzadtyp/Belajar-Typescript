@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const day13_1 = require("./day13");
+const queue = new day13_1.Queue();
+queue.addOrder("cimol");
+queue.addOrder("cihuy");
+queue.addOrder("cimol");
+queue.addOrder("cihuy");
+queue.showOrder();
+queue.processOrders();
